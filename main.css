@@ -1,0 +1,27 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- canvas ---- */
+
+#canvas {
+  width: 500px;
+  height: 300px;
+  border: 2px solid rgb(52, 52, 161);
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
